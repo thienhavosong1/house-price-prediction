@@ -23,5 +23,6 @@ pip install pandas scikit-learn
 
 python main.py
 ## Data Visualization
+The following plot shows the distribution of house prices in the dataset.
 ### Distribution of House Prices
 ![Price Distribution](images/price_distribution.png)
