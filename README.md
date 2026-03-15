@@ -23,5 +23,5 @@ pip install pandas scikit-learn
 
 python main.py
 ## Data Visualization
-
+### Distribution of House Prices
 ![Price Distribution](images/price_distribution.png)
