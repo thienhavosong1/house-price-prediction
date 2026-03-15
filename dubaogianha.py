@@ -19,6 +19,7 @@ plt.show()
 plt.figure(figsize=(8,5))
 sns.scatterplot(x=data["GrLivArea"] , y = data["SalePrice"])
 plt.title("Diện tích nhà vs Giá nhà ")
+plt.savefig("images/house_price_vs_area.png")
 plt.show()
 
 features = ["GrLivArea" , "OverallQual" , "GarageCars"]
