@@ -1,7 +1,16 @@
 # House Price Prediction
 
 This project predicts house prices using Machine Learning.
+## Dataset
 
+Dataset used: Ames Housing Dataset.
+
+The dataset contains information about house properties such as:
+
+- Living area
+- Overall quality
+- Garage capacity
+- Sale price
 ## Technologies
 - Python
 - Pandas
