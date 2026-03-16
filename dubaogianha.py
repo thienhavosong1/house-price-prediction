@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error as mae
@@ -50,6 +51,10 @@ sns.histplot(errors , kde = True)
 plt.title("Phân bố sai số dự đoán ")
 plt.xlabel("Error")
 plt.show()
+
+import pickle
+
+pickle.dump(model, open("model.pkl", "wb"))
 
 
 
