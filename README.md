@@ -38,3 +38,10 @@ The following plot shows the distribution of house prices in the dataset.
 
 pip install -r requirements.txt
 ![Price Distribution](images/price_distribution.png)
+## Installation
+
+pip install -r requirements.txt
+
+## Run project
+
+python main.py
