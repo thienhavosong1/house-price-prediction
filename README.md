@@ -34,4 +34,7 @@ python main.py
 ## Data Visualization
 The following plot shows the distribution of house prices in the dataset.
 ### Distribution of House Prices
+## Install libraries
+
+pip install -r requirements.txt
 ![Price Distribution](images/price_distribution.png)
