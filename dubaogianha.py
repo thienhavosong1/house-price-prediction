@@ -13,14 +13,17 @@ print(data.head())
 print(data.info())
 
 plt.figure(figsize=(8,5))
-sns.histplot(data["SalePrice"], kde = True)
-plt.title("Phân bố giá nhà ")
+sns.histplot(data["SalePrice"], kde=True)
+plt.title("Phân bố giá nhà")
+
+plt.savefig("images/price_distribution.png")  # lưu ảnh
 plt.show()
 
 plt.figure(figsize=(8,5))
-sns.scatterplot(x=data["GrLivArea"] , y = data["SalePrice"])
-plt.title("Diện tích nhà vs Giá nhà ")
-plt.savefig("images/house_price_vs_area.png")
+sns.scatterplot(x=data["GrLivArea"], y=data["SalePrice"])
+plt.title("Diện tích nhà vs Giá nhà")
+
+plt.savefig("images/house_price_vs_area.png")  # lưu ảnh
 plt.show()
 
 features = ["GrLivArea" , "OverallQual" , "GarageCars"]
@@ -51,6 +54,7 @@ sns.histplot(errors , kde = True)
 plt.title("Phân bố sai số dự đoán ")
 plt.xlabel("Error")
 plt.show()
+
 
 import pickle
 
