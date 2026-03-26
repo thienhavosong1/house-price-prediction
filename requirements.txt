@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 pandas
 numpy
 matplotlib
 seaborn
+=======
+pandas
+numpy
+matplotlib
+seaborn
+>>>>>>> 08b81f2ca4f95de8e43d1070a09604542e182b45
 scikit-learn
