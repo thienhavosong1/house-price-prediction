@@ -1,110 +1,141 @@
-<<<<<<< HEAD
-# House Price Prediction
+# 🏠 House Price Prediction using Machine Learning
 
-This project predicts house prices using Machine Learning.
+This project predicts house prices using Machine Learning models based on housing features such as living area, overall quality, and garage capacity.
 
-## Technologies
-- Python
-- Pandas
-- Scikit-learn
+The goal of this project is to build a regression model that can estimate the selling price of a house using data analysis and machine learning techniques.
 
-## Project Structure
+---
 
+## 📊 Project Overview
+
+House prices depend on many factors such as area, quality of construction, and available facilities.
+In this project, we analyze housing data and apply machine learning algorithms to predict house prices.
+
+Two regression models are implemented and compared:
+
+* Linear Regression
+* Random Forest Regressor
+
+---
+
+## ⚙️ Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+
+---
+
+## 📂 Project Structure
+
+```
 house-price-prediction
 │
-├── data
+├── data/
 │   └── train.csv
 │
+├── images/
+│   ├── price_distribution.png
+│   ├── correlation_matrix.png
+│   └── house_price_vs_area.png
+│
 ├── main.py
-└── dubaogianha.py
-
-## How to run
-
-pip install pandas scikit-learn
-
-python main.py
-## Data Visualization
-
-Scatter plot showing relationship between house area and price.
-
-![House Price vs Area](images/house_price_vs_area.png)
-
-
-=======
-# House Price Prediction
-
-## Introduction
-This project predicts house prices using Machine Learning.  
-The dataset used is the Ames Housing Dataset.
-
-The goal is to build a regression model that predicts house prices based on several house features.
+├── dubaoianha.py
+├── model.pkl
+├── requirements.txt
+└── README.md
+```
 
 ---
 
-## Dataset
-Dataset contains:
+## 📈 Data Analysis
 
-- 1460 houses
-- 80 features
-- Target variable: SalePrice
+The project includes several visualizations to understand the dataset:
 
-Dataset file:
+* Distribution of house prices
+* Correlation matrix of numerical features
+* Relationship between living area and price
+* Prediction error distribution
 
-data/train.csv
-
----
-
-## Features Used
-
-GrLivArea – Living area  
-OverallQual – House quality  
-GarageCars – Garage capacity
+These visualizations help identify important features affecting house prices.
 
 ---
 
-## Models Used
+## 🤖 Machine Learning Models
 
-Linear Regression
+### 1. Linear Regression
 
-Random Forest Regressor
+A basic regression model used as a baseline to understand the relationship between features and house prices.
 
----
+### 2. Random Forest Regressor
 
-## Evaluation
-
-Metrics used:
-
-MAE (Mean Absolute Error)
-
-R² Score
+An ensemble learning model that improves prediction performance by combining multiple decision trees.
 
 ---
 
-## Run Project
+## 📊 Model Evaluation
 
-Install libraries:
+Models are evaluated using the following metrics:
 
+* **MAE (Mean Absolute Error)**
+* **RMSE (Root Mean Squared Error)**
+* **R² Score**
+
+Random Forest generally provides better prediction performance compared to Linear Regression.
+
+---
+
+## 🚀 How to Run the Project
+
+### 1️⃣ Clone the repository
+
+```
+git clone https://github.com/thienhavosong1/house-price-prediction.git
+```
+
+### 2️⃣ Install required libraries
+
+```
 pip install -r requirements.txt
+```
 
-Run program:
+### 3️⃣ Run the training script
 
+```
 python main.py
+```
+
+### 4️⃣ Run prediction script
+
+```
+python dubaoianha.py
+```
 
 ---
 
-## Technologies
+## 📌 Features Used in Prediction
 
-Python  
-Pandas  
-NumPy  
-Matplotlib  
-Seaborn  
-Scikit-learn
+The main features used for training the model include:
+
+* **GrLivArea** – Above ground living area
+* **OverallQual** – Overall quality of the house
+* **GarageCars** – Garage capacity
+
+These features show strong correlation with house prices.
 
 ---
 
-## Author
+## 📚 Dataset
 
-GitHub:  
-https://github.com/thienhavosong1
->>>>>>> 08b81f2ca4f95de8e43d1070a09604542e182b45
+The dataset used in this project is a housing dataset containing information about houses and their selling prices.
+
+---
+
+## 👨‍💻 Author
+
+**Phạm Hữu Bằng**
+
+Machine Learning Project – House Price Prediction
