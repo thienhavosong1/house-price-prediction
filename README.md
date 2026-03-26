@@ -136,6 +136,6 @@ The dataset used in this project is a housing dataset containing information abo
 
 ## 👨‍💻 Author
 
-**Phạm Hữu Bằng**
+**Nhóm 6 - Phạm Hữu Bằng (698346) "
 
 Machine Learning Project – House Price Prediction
