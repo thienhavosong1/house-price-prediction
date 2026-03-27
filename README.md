@@ -113,29 +113,45 @@ requirements.txt
 Danh sách các thư viện Python cần thiết để chạy dự án.
 
 📈 Trực quan hóa dữ liệu
+## Phân bố giá nhà
+![Price Distribution](./images/price_distribution.png)
 Phân bố giá nhà
 
 Biểu đồ cho thấy phân bố giá nhà trong dataset.
 
-Correlation Matrix
+## Correlation Matrix
+![Correlation Matrix](./images/correlation_matrix.png)
+Phân bố giá nhà
 
-Biểu đồ thể hiện mức độ tương quan giữa các biến trong dữ liệu.
+Biểu đồ cho thấy phân bố giá nhà trong dataset.
+
+## Diện tích nhà và giá nhà
+![Area vs Price](./images/area_vs_price.png)
 
 Diện tích nhà và giá nhà
 
 Biểu đồ scatter thể hiện mối quan hệ giữa diện tích nhà và giá bán.
 
+## So sánh giá thực tế và giá dự đoán
+![Prediction vs Actual](./images/prediction_vs_actual.png)
+
+Diện tích nhà và giá nhà
+
+Biểu đồ scatter thể hiện mối quan hệ giữa diện tích nhà và giá bán.
+
+## Phân bố sai số dự đoán
+![Error Distribution](./images/error_distribution.png)
+
 So sánh giá thực tế và giá dự đoán
 
 Biểu đồ so sánh giá nhà thực tế với giá nhà được mô hình dự đoán.
 
+## Mức độ quan trọng của các đặc trưng
+![Feature Importance](./images/feature_importance.png)
+
 Phân bố sai số dự đoán
 
 Biểu đồ thể hiện phân bố sai số của mô hình dự đoán.
-
-Mức độ quan trọng của các đặc trưng
-
-Biểu đồ thể hiện mức độ quan trọng của các feature trong mô hình Random Forest.
 
 🤖 Các mô hình Machine Learning
 
