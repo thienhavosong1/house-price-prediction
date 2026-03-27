@@ -41,14 +41,40 @@ giá bán của nhà
 Biến mục tiêu cần dự đoán là:
 
 SalePrice
-⚙️ Công nghệ sử dụng
-Công nghệ	Mục đích
-Python	Ngôn ngữ lập trình
-Pandas	Xử lý và phân tích dữ liệu
-NumPy	Tính toán số học
-Matplotlib	Vẽ biểu đồ
-Seaborn	Trực quan hóa dữ liệu
-Scikit-learn	Xây dựng mô hình Machine Learning
+
+## Biến mục tiêu cần dự đoán
+
+Biến mục tiêu của mô hình là:
+
+**SalePrice**
+
+---
+
+## Công nghệ sử dụng
+
+| Công nghệ | Mục đích |
+|---|---|
+| Python | Ngôn ngữ lập trình |
+| Pandas | Xử lý và phân tích dữ liệu |
+| NumPy | Tính toán số học |
+| Matplotlib | Vẽ biểu đồ |
+| Seaborn | Trực quan hóa dữ liệu |
+| Scikit-learn | Xây dựng mô hình Machine Learning |
+
+---
+
+## Quy trình Machine Learning
+
+Quy trình thực hiện trong dự án gồm các bước:
+
+1. Data preprocessing (tiền xử lý dữ liệu)
+2. Exploratory Data Analysis (EDA)
+3. Feature selection
+4. Train/Test split
+5. Model training
+6. Model evaluation
+7. Data visualization
+
 🔄 Quy trình Machine Learning
 
 Dự án thực hiện theo quy trình Machine Learning cơ bản:
