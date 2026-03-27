@@ -89,24 +89,29 @@ Huấn luyện mô hình
 
 ## 📁 Cấu trúc dự án
 
+```
 house-price-prediction
 │
 ├── data/
-│ └── train.csv
+│   └── train.csv
 │
 ├── images/
-│ ├── price_distribution.png
-│ ├── correlation_matrix.png
-│ ├── area_vs_price.png
-│ ├── prediction_vs_actual.png
-│ ├── error_distribution.png
-│ └── feature_importance.png
+│   ├── price_distribution.png
+│   ├── correlation_matrix.png
+│   ├── area_vs_price.png
+│   ├── prediction_vs_actual.png
+│   ├── error_distribution.png
+│   └── feature_importance.png
 │
 ├── main.py
 ├── dubaogianha.py
 ├── model.pkl
 ├── requirements.txt
 └── README.md
+```
+
+
+
 
 📂 Giải thích các file
 data/
