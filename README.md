@@ -63,10 +63,7 @@ Biến mục tiêu của mô hình là:
 
 ---
 
-## Quy trình Machine Learning
-
-
-🔄 Quy trình Machine Learning
+## 🔄 Quy trình Machine Learning
 
 Dự án thực hiện theo quy trình Machine Learning cơ bản:
 
@@ -241,7 +238,10 @@ python main.py
 python dubaogianha.py
 ```
 
-Repository:
+## 🔧 Quản lý mã nguồn
+
+Repository của dự án được lưu trữ trên GitHub:
+
 https://github.com/thienhavosong1/house-price-prediction
 
 Git giúp:
