@@ -87,19 +87,20 @@ Chia dữ liệu Train/Test
 Huấn luyện mô hình
 Đánh giá mô hình
 
-📁 Cấu trúc dự án
+## 📁 Cấu trúc dự án
+
 house-price-prediction
 │
 ├── data/
-│   └── train.csv
+│ └── train.csv
 │
 ├── images/
-│   ├── price_distribution.png
-│   ├── correlation_matrix.png
-│   ├── area_vs_price.png
-│   ├── prediction_vs_actual.png
-│   ├── error_distribution.png
-│   └── feature_importance.png
+│ ├── price_distribution.png
+│ ├── correlation_matrix.png
+│ ├── area_vs_price.png
+│ ├── prediction_vs_actual.png
+│ ├── error_distribution.png
+│ └── feature_importance.png
 │
 ├── main.py
 ├── dubaogianha.py
