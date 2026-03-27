@@ -9,7 +9,7 @@ Diện tích sinh hoạt (GrLivArea)
 Chất lượng tổng thể của nhà (OverallQual)
 Sức chứa gara (GarageCars)
 
-Dự án bao gồm các bước chính:
+Dự án bao gồm các bước:
 
 Data preprocessing
 Exploratory Data Analysis (EDA)
@@ -26,9 +26,9 @@ House Prices: Advanced Regression Techniques trên Kaggle
 Dataset bao gồm:
 
 1460 mẫu dữ liệu
-80 thuộc tính (features) mô tả đặc điểm của các ngôi nhà
+80 thuộc tính (features) mô tả các đặc điểm của ngôi nhà
 
-Các thuộc tính bao gồm thông tin như:
+Các thuộc tính trong dataset bao gồm:
 
 diện tích
 chất lượng xây dựng
@@ -41,18 +41,17 @@ giá bán của nhà
 Biến mục tiêu cần dự đoán là:
 
 SalePrice
-
 ⚙️ Technologies Used
 
-Các thư viện và công nghệ được sử dụng:
+Các công nghệ và thư viện được sử dụng trong dự án:
 
 Technology	Purpose
-Python	Ngôn ngữ lập trình
-Pandas	Xử lý dữ liệu
-NumPy	Tính toán số học
-Matplotlib	Vẽ biểu đồ
-Seaborn	Trực quan hóa dữ liệu
-Scikit-learn	Xây dựng mô hình Machine Learning
+Python	Programming language
+Pandas	Data processing
+NumPy	Numerical computing
+Matplotlib	Data visualization
+Seaborn	Statistical visualization
+Scikit-learn	Machine Learning models
 📁 Project Structure
 house-price-prediction
 │
@@ -72,7 +71,7 @@ house-price-prediction
 ├── model.pkl
 ├── requirements.txt
 └── README.md
-📂 Giải thích các file
+📂 File Explanation
 data/
 
 Chứa dataset dùng để huấn luyện mô hình.
@@ -85,14 +84,15 @@ main.py
 
 Chương trình chính thực hiện:
 
-đọc dữ liệu
+đọc dataset
+xử lý dữ liệu
 phân tích dữ liệu
 huấn luyện mô hình
 đánh giá mô hình
-tạo biểu đồ
+tạo các biểu đồ
 dubaogianha.py
 
-Chương trình dùng để dự đoán giá nhà dựa trên mô hình đã huấn luyện.
+Chương trình dùng để dự đoán giá nhà.
 
 model.pkl
 
@@ -103,55 +103,36 @@ requirements.txt
 Danh sách các thư viện cần thiết để chạy project.
 
 📈 Data Visualization
-# 📈 Data Visualization
-
-## Distribution of House Prices
-
-![Price Distribution](images/price_distribution.png)
-
-## Correlation Matrix
-
-![Correlation Matrix](images/correlation_matrix.png)
-
-## Living Area vs House Price
-
-![Area vs Price](images/area_vs_price.png)
-
-## Actual vs Predicted Prices
-
-![Prediction vs Actual](images/prediction_vs_actual.png)
-
-## Prediction Error Distribution
-
-![Error Distribution](images/error_distribution.png)
-
-## Feature Importance
-
-![Feature Importance](images/feature_importance.png)
 Distribution of House Prices
 
 Biểu đồ cho thấy phân bố giá nhà trong dataset.
 
+![Price Distribution](images/price_distribution.png)
 Correlation Matrix
 
 Biểu đồ thể hiện mối tương quan giữa các biến trong dữ liệu.
 
+![Correlation Matrix](images/correlation_matrix.png)
 Living Area vs House Price
 
 Biểu đồ thể hiện mối quan hệ giữa diện tích nhà và giá bán.
 
+![Area vs Price](images/area_vs_price.png)
 Actual vs Predicted Prices
 
 So sánh giá nhà thực tế với giá dự đoán của mô hình.
 
+![Prediction vs Actual](images/prediction_vs_actual.png)
 Prediction Error Distribution
 
 Biểu đồ phân bố sai số của mô hình dự đoán.
 
+![Error Distribution](images/error_distribution.png)
 Feature Importance
 
 Biểu đồ thể hiện mức độ quan trọng của các đặc trưng trong mô hình Random Forest.
 
+![Feature Importance](images/feature_importance.png)
 🤖 Machine Learning Models
 
 Dự án sử dụng hai mô hình Machine Learning:
@@ -176,7 +157,7 @@ giảm overfitting
 hoạt động tốt với dữ liệu phức tạp
 📊 Model Evaluation
 
-Các mô hình được đánh giá bằng các chỉ số:
+Các mô hình được đánh giá bằng:
 
 MAE (Mean Absolute Error)
 RMSE (Root Mean Squared Error)
@@ -191,14 +172,14 @@ Random Forest Regressor cho hiệu suất tốt hơn Linear Regression.
 git clone https://github.com/thienhavosong1/house-price-prediction.git
 2️⃣ Install required libraries
 pip install -r requirements.txt
-3️⃣ Run the training script
+3️⃣ Run training script
 python main.py
 
 Chương trình sẽ:
 
 đọc dữ liệu
 huấn luyện mô hình
-tạo các biểu đồ phân tích dữ liệu
+tạo các biểu đồ
 4️⃣ Run prediction script
 python dubaogianha.py
 
@@ -215,8 +196,8 @@ https://github.com/thienhavosong1/house-price-prediction
 Git giúp:
 
 quản lý phiên bản
-theo dõi thay đổi của code
-làm việc nhóm hiệu quả
+theo dõi lịch sử thay đổi của dự án
+hỗ trợ làm việc nhóm
 📌 Conclusion
 
 Dự án đã xây dựng thành công mô hình dự đoán giá nhà sử dụng Machine Learning.
@@ -224,7 +205,7 @@ Dự án đã xây dựng thành công mô hình dự đoán giá nhà sử dụ
 Kết quả cho thấy:
 
 Random Forest Regressor có hiệu suất tốt hơn Linear Regression
-các đặc trưng như diện tích sinh hoạt (GrLivArea) và chất lượng tổng thể (OverallQual) có ảnh hưởng lớn đến giá nhà
+các đặc trưng như diện tích sinh hoạt và chất lượng tổng thể của nhà có ảnh hưởng lớn đến giá nhà
 
 Machine Learning có thể được áp dụng hiệu quả trong lĩnh vực dự đoán giá bất động sản.
 
