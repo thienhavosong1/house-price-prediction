@@ -103,6 +103,31 @@ requirements.txt
 Danh sách các thư viện cần thiết để chạy project.
 
 📈 Data Visualization
+# 📈 Data Visualization
+
+## Distribution of House Prices
+
+![Price Distribution](images/price_distribution.png)
+
+## Correlation Matrix
+
+![Correlation Matrix](images/correlation_matrix.png)
+
+## Living Area vs House Price
+
+![Area vs Price](images/area_vs_price.png)
+
+## Actual vs Predicted Prices
+
+![Prediction vs Actual](images/prediction_vs_actual.png)
+
+## Prediction Error Distribution
+
+![Error Distribution](images/error_distribution.png)
+
+## Feature Importance
+
+![Feature Importance](images/feature_importance.png)
 Distribution of House Prices
 
 Biểu đồ cho thấy phân bố giá nhà trong dataset.
