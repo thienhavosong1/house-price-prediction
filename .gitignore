@@ -1,8 +1,5 @@
 .venv/
 __pycache__/
-<<<<<<< HEAD
 *.pyc
 exportToHTML/
-=======
 .idea/
->>>>>>> 08b81f2ca4f95de8e43d1070a09604542e182b45
