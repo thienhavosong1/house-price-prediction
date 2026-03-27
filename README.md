@@ -1,48 +1,49 @@
-🏠 Dự đoán giá nhà bằng Machine Learning
-1. Giới thiệu
+🏠 House Price Prediction using Machine Learning
+📌 Overview
 
-Dự án này áp dụng các kỹ thuật Machine Learning để dự đoán giá bán của nhà dựa trên một số đặc trưng của ngôi nhà như:
+Dự án này sử dụng Machine Learning để dự đoán giá bán của nhà dựa trên các đặc trưng của ngôi nhà.
 
-Diện tích sinh hoạt
-Chất lượng tổng thể của ngôi nhà
+Thông qua việc phân tích dữ liệu và huấn luyện mô hình, chương trình có thể ước lượng giá bán của nhà dựa trên các yếu tố như:
+
+Diện tích sinh hoạt (Living Area)
+Chất lượng tổng thể của nhà
 Sức chứa gara
 
-Bằng cách phân tích dữ liệu và huấn luyện các mô hình học máy, chương trình có thể ước lượng giá bán của một căn nhà với độ chính xác tương đối cao.
+Dự án bao gồm các bước:
 
-Các bước chính của dự án gồm:
+Data preprocessing
+Exploratory Data Analysis (EDA)
+Model training
+Model evaluation
+Data visualization
+📊 Dataset
 
-Phân tích và khám phá dữ liệu (Exploratory Data Analysis)
-Trực quan hóa dữ liệu
-Huấn luyện mô hình Machine Learning
-Đánh giá mô hình
-So sánh hiệu suất các mô hình
-2. Dataset
+Dataset được sử dụng là House Prices Dataset.
 
-Dự án sử dụng bộ dữ liệu House Prices Dataset.
+Dataset chứa nhiều thông tin về các căn nhà như:
 
-Dataset bao gồm nhiều thông tin về các căn nhà, ví dụ:
-
-diện tích sinh hoạt
+diện tích
 chất lượng xây dựng
 số phòng
-gara
 năm xây dựng
+sức chứa gara
 giá bán
 
 Biến mục tiêu cần dự đoán là:
 
 SalePrice
-3. Công nghệ và thư viện sử dụng
+⚙️ Technologies Used
 
-Dự án được xây dựng bằng Python với các thư viện sau:
+Các công nghệ và thư viện được sử dụng trong dự án:
 
-Thư viện	Mục đích
-pandas	xử lý và phân tích dữ liệu
-numpy	tính toán số học
-matplotlib	vẽ biểu đồ
-seaborn	trực quan hóa dữ liệu
-scikit-learn	xây dựng mô hình Machine Learning
-4. Cấu trúc thư mục dự án
+Technology	Purpose
+Python	Ngôn ngữ lập trình
+Pandas	Xử lý dữ liệu
+NumPy	Tính toán số học
+Matplotlib	Vẽ biểu đồ
+Seaborn	Trực quan hóa dữ liệu
+Scikit-learn	Xây dựng mô hình Machine Learning
+📁 Project Structure
 house-price-prediction
 │
 ├── data
@@ -61,13 +62,13 @@ house-price-prediction
 ├── model.pkl
 ├── requirements.txt
 └── README.md
-Giải thích các file
+📂 Giải thích
 
 data/
 Chứa dataset dùng để huấn luyện mô hình.
 
 images/
-Chứa các biểu đồ trực quan hóa dữ liệu.
+Chứa các biểu đồ phân tích dữ liệu.
 
 main.py
 Chương trình chính thực hiện:
@@ -78,49 +79,43 @@ huấn luyện mô hình
 đánh giá mô hình
 
 dubaogianha.py
-Chương trình dùng để dự đoán giá nhà bằng mô hình đã huấn luyện.
+Chương trình dùng để dự đoán giá nhà.
 
 model.pkl
-File lưu mô hình Machine Learning sau khi huấn luyện.
+File lưu mô hình Machine Learning.
 
-requirements.txt
-Danh sách các thư viện cần thiết để chạy project.
-
-5. Phân tích dữ liệu (EDA)
-
-Trong quá trình phân tích dữ liệu, dự án sử dụng nhiều biểu đồ trực quan để hiểu rõ hơn về dataset.
-
+📈 Data Visualization
 Distribution of House Prices
 
-Biểu đồ thể hiện phân bố của giá nhà trong dataset.
+Biểu đồ cho thấy phân bố giá nhà trong dataset.
 
 Correlation Matrix
 
-Biểu đồ thể hiện mối tương quan giữa các biến trong dataset.
+Biểu đồ thể hiện mối tương quan giữa các biến trong dữ liệu.
 
-Living Area vs Price
+Living Area vs House Price
 
-Biểu đồ cho thấy diện tích sinh hoạt có ảnh hưởng lớn đến giá nhà.
+Biểu đồ thể hiện mối quan hệ giữa diện tích nhà và giá bán.
 
 Actual vs Predicted Prices
 
-Biểu đồ so sánh giá nhà thực tế và giá dự đoán từ mô hình.
+So sánh giá nhà thực tế với giá dự đoán của mô hình.
 
 Prediction Error Distribution
 
-Biểu đồ thể hiện phân bố sai số của mô hình dự đoán.
+Biểu đồ phân bố sai số của mô hình dự đoán.
 
 Feature Importance
 
-Biểu đồ thể hiện mức độ quan trọng của từng đặc trưng trong mô hình Random Forest.
+Biểu đồ thể hiện mức độ quan trọng của các đặc trưng trong mô hình Random Forest.
 
-6. Các mô hình Machine Learning
+🤖 Machine Learning Models
 
-Dự án sử dụng hai mô hình Machine Learning:
+Dự án sử dụng hai mô hình:
 
 Linear Regression
 
-Linear Regression là mô hình hồi quy tuyến tính đơn giản dùng để dự đoán giá nhà dựa trên mối quan hệ tuyến tính giữa các biến.
+Mô hình hồi quy tuyến tính cơ bản dùng để dự đoán giá nhà.
 
 Ưu điểm:
 
@@ -129,72 +124,64 @@ dễ hiểu
 huấn luyện nhanh
 Random Forest Regressor
 
-Random Forest là thuật toán ensemble learning kết hợp nhiều cây quyết định để cải thiện độ chính xác.
+Random Forest là thuật toán ensemble learning kết hợp nhiều cây quyết định.
 
 Ưu điểm:
 
 độ chính xác cao
 giảm overfitting
 hoạt động tốt với dữ liệu phức tạp
-7. Đánh giá mô hình
+📊 Model Evaluation
 
-Các mô hình được đánh giá bằng các chỉ số:
+Các mô hình được đánh giá bằng:
 
 MAE (Mean Absolute Error)
-
-Sai số trung bình tuyệt đối giữa giá trị dự đoán và giá trị thực.
-
 RMSE (Root Mean Squared Error)
-
-Sai số bình phương trung bình.
-
 R² Score
 
-Đo lường mức độ phù hợp của mô hình với dữ liệu.
+Random Forest thường cho kết quả tốt hơn Linear Regression.
 
-Giá trị R² càng gần 1 thì mô hình càng tốt.
-
-8. Hướng dẫn cài đặt
-Bước 1: Clone repository
+🚀 How to Run the Project
+1️⃣ Clone repository
 git clone https://github.com/thienhavosong1/house-price-prediction.git
-Bước 2: Cài đặt thư viện
+2️⃣ Install required libraries
 pip install -r requirements.txt
-Bước 3: Chạy chương trình
-
-Huấn luyện mô hình và tạo biểu đồ:
-
+3️⃣ Run the training script
 python main.py
-Bước 4: Dự đoán giá nhà
-python dubaogianha.py
-9. Quản lý mã nguồn
 
-Source code của dự án được quản lý bằng Git và lưu trữ trên GitHub.
+Chương trình sẽ:
+
+đọc dữ liệu
+huấn luyện mô hình
+tạo các biểu đồ
+4️⃣ Run prediction script
+python dubaogianha.py
+🔧 Source Code Management
+
+Source code được quản lý bằng Git và lưu trữ trên GitHub.
 
 Repository:
 
 https://github.com/thienhavosong1/house-price-prediction
 
-Git giúp:
+Git giúp quản lý phiên bản và theo dõi lịch sử thay đổi của dự án.
 
-quản lý phiên bản code
-theo dõi lịch sử thay đổi
-phát triển dự án hiệu quả
-10. Kết luận
+📌 Conclusion
 
 Dự án đã xây dựng thành công mô hình dự đoán giá nhà bằng Machine Learning.
 
 Kết quả cho thấy:
 
-mô hình Random Forest Regressor cho độ chính xác cao hơn Linear Regression
-các yếu tố như diện tích, chất lượng xây dựng và gara có ảnh hưởng lớn đến giá nhà
+Random Forest Regressor có hiệu suất tốt hơn Linear Regression
+diện tích nhà và chất lượng xây dựng là các yếu tố quan trọng ảnh hưởng đến giá nhà
 
-Machine Learning có thể được ứng dụng hiệu quả trong dự đoán giá bất động sản.
+Machine Learning có thể được áp dụng hiệu quả trong lĩnh vực dự đoán giá bất động sản.
 
-11. Tác giả
+👨‍💻 Author
 
 Nhóm 6
 
-Phạm Hữu Bằng – 698346
+Phạm Hữu Bằng – 698346(Nhóm Trưởng)
 Lưu Quang Vinh - 698585
 
 Machine Learning Project – House Price Prediction
