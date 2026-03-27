@@ -176,6 +176,9 @@ Sai số càng tập trung gần 0 thì mô hình càng chính xác.
 Biểu đồ thể hiện mức độ quan trọng của các đặc trưng
 trong mô hình Random Forest.
 
+Các đặc trưng có giá trị importance cao sẽ ảnh hưởng
+nhiều hơn đến việc dự đoán giá nhà.
+
 🤖 Các mô hình Machine Learning
 
 Dự án sử dụng hai mô hình Machine Learning.
