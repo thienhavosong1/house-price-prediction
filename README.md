@@ -153,9 +153,10 @@ Biểu đồ cho thấy phân bố giá nhà trong dataset.
 
 ## Correlation Matrix
 ![Correlation Matrix](./images/correlation_matrix.png)
-Phân bố giá nhà
 
-Biểu đồ cho thấy phân bố giá nhà trong dataset.
+Biểu đồ thể hiện mức độ tương quan giữa các biến trong dataset.
+Các ô màu đỏ thể hiện tương quan dương mạnh,
+màu xanh thể hiện tương quan âm.
 
 ## Diện tích nhà và giá nhà
 ![Area vs Price](./images/area_vs_price.png)
@@ -167,16 +168,16 @@ Biểu đồ scatter thể hiện mối quan hệ giữa diện tích nhà và g
 ## So sánh giá thực tế và giá dự đoán
 ![Prediction vs Actual](./images/prediction_vs_actual.png)
 
-Diện tích nhà và giá nhà
+Biểu đồ so sánh giá nhà thực tế với giá nhà được mô hình dự đoán.
 
-Biểu đồ scatter thể hiện mối quan hệ giữa diện tích nhà và giá bán.
+Nếu các điểm dữ liệu nằm gần đường chéo thì mô hình dự đoán càng chính xác.
 
 ## Phân bố sai số dự đoán
 ![Error Distribution](./images/error_distribution.png)
 
-So sánh giá thực tế và giá dự đoán
+Biểu đồ thể hiện phân bố sai số dự đoán của mô hình.
 
-Biểu đồ so sánh giá nhà thực tế với giá nhà được mô hình dự đoán.
+Sai số càng tập trung gần 0 thì mô hình càng chính xác.
 
 ## Mức độ quan trọng của các đặc trưng
 ![Feature Importance](./images/feature_importance.png)
@@ -219,15 +220,24 @@ Kết quả thực nghiệm cho thấy:
 
 Random Forest Regressor cho hiệu suất tốt hơn Linear Regression.
 
-🚀 Cách chạy chương trình
-Clone repository
+
+
+## 🚀 Cách chạy chương trình
+
+### 1. Clone repository
+
+```bash
 git clone https://github.com/thienhavosong1/house-price-prediction.git
+
 Cài đặt thư viện
 pip install -r requirements.txt
+
 Huấn luyện mô hình
 python main.py
+
 Dự đoán giá nhà
 python dubaogianha.py
+
 🔧 Quản lý mã nguồn
 
 Source code của dự án được quản lý bằng Git và lưu trữ trên GitHub.
@@ -240,16 +250,19 @@ Git giúp:
 quản lý phiên bản mã nguồn
 theo dõi lịch sử thay đổi
 hỗ trợ làm việc nhóm
-📌 Kết luận
 
-Dự án đã xây dựng thành công mô hình dự đoán giá nhà bằng Machine Learning.
 
-Kết quả cho thấy:
+```markdown
+## 📌 Kết luận
 
-Random Forest Regressor cho hiệu suất tốt hơn Linear Regression
-các đặc trưng như diện tích sinh hoạt và chất lượng nhà có ảnh hưởng lớn đến giá nhà
+Dự án đã xây dựng thành công mô hình dự đoán giá nhà sử dụng Machine Learning.
 
-Machine Learning có thể được áp dụng hiệu quả trong bài toán dự đoán giá bất động sản.
+Kết quả thực nghiệm cho thấy:
+
+- Random Forest Regressor cho hiệu suất tốt hơn Linear Regression
+- Các đặc trưng như diện tích sinh hoạt (GrLivArea) và chất lượng nhà (OverallQual) có ảnh hưởng lớn đến giá nhà.
+
+Điều này cho thấy Machine Learning có thể được áp dụng hiệu quả trong bài toán dự đoán giá bất động sản.
 
 👨‍💻 Tác giả
 
