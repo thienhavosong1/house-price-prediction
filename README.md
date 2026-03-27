@@ -240,7 +240,7 @@ python dubaogianha.py
 
 ## 🔧 Quản lý mã nguồn
 
-Repository của dự án được lưu trữ trên GitHub:
+Repository của dự án:
 
 https://github.com/thienhavosong1/house-price-prediction
 
