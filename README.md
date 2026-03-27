@@ -65,15 +65,6 @@ Biến mục tiêu của mô hình là:
 
 ## Quy trình Machine Learning
 
-Quy trình thực hiện trong dự án gồm các bước:
-
-1. Data preprocessing (tiền xử lý dữ liệu)
-2. Exploratory Data Analysis (EDA)
-3. Feature selection
-4. Train/Test split
-5. Model training
-6. Model evaluation
-7. Data visualization
 
 🔄 Quy trình Machine Learning
 
@@ -182,9 +173,8 @@ Sai số càng tập trung gần 0 thì mô hình càng chính xác.
 ## Mức độ quan trọng của các đặc trưng
 ![Feature Importance](./images/feature_importance.png)
 
-Phân bố sai số dự đoán
-
-Biểu đồ thể hiện phân bố sai số của mô hình dự đoán.
+Biểu đồ thể hiện mức độ quan trọng của các đặc trưng
+trong mô hình Random Forest.
 
 🤖 Các mô hình Machine Learning
 
@@ -228,19 +218,25 @@ Random Forest Regressor cho hiệu suất tốt hơn Linear Regression.
 
 ```bash
 git clone https://github.com/thienhavosong1/house-price-prediction.git
+```
 
-Cài đặt thư viện
+### 2. Cài đặt thư viện
+
+```bash
 pip install -r requirements.txt
+```
 
-Huấn luyện mô hình
+### 3. Huấn luyện mô hình
+
+```bash
 python main.py
+```
 
-Dự đoán giá nhà
+### 4. Dự đoán giá nhà
+
+```bash
 python dubaogianha.py
-
-🔧 Quản lý mã nguồn
-
-Source code của dự án được quản lý bằng Git và lưu trữ trên GitHub.
+```
 
 Repository:
 https://github.com/thienhavosong1/house-price-prediction
@@ -252,7 +248,6 @@ theo dõi lịch sử thay đổi
 hỗ trợ làm việc nhóm
 
 
-```markdown
 ## 📌 Kết luận
 
 Dự án đã xây dựng thành công mô hình dự đoán giá nhà sử dụng Machine Learning.
